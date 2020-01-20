@@ -42,7 +42,7 @@ export default class FilterObject extends Component {
         <input onChange={this.handleInput} className="inputLine" />
         <button onClick={this.handleFilter} className="confirmationButton">Filter</button>
         <span className="resultsBox filterObjectRB">Filtered: {JSON.stringify(this.state.filterArray)}</span>
-    </div>
+      </div>
     )
   }
 }
